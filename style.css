@@ -1,0 +1,62 @@
+/* アスキーコードをutf8に */
+@charset "utf-8";
+
+/* 共通デザイン */
+/* ページのスクロール移動をスムーズに */
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  padding-top: 64px;
+}
+
+/* body全体にフォント指定と背景色 */
+body {
+  font-family: sans-serif;
+  background-color: #fff1cf;
+}
+
+/* h2とh3の文字デザインを指定 */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6f4c5b;
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+/* ヘッダのスタイルを指定 */
+header {
+  width: 960px;
+  margin: 32px auto 32px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img {
+  width: 640px;
+}
+
+.site_reserve {
+  width: 320px;
+  text-align: right;
+}
+/* ヘッダのスタイルを指定 */
+header {
+  width: 960px;
+  margin: 32px auto 32px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header img {
+  width: 640px;
+}
+
+.site_reserve {
+  width: 320px;
+  text-align: right;
+}
